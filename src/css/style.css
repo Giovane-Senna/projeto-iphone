@@ -1,0 +1,123 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixa-roxa{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+ul{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-left: 100px;
+}
+
+li{
+    color: #373737;
+}
+
+.logo-iphone{
+    height: 20px;
+}
+
+.caixa-azul{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-iphone{
+    font-size: 30px;
+}
+
+.titulo-poderoso{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.paragrafo-tamanhos{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.preco{
+    font-size: 20px;
+    color: #626262;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.botao-comprar{
+    background-color: #0071e3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.formato-botoes{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-azul{
+    background-color: #81a5c4;
+}
+
+.botao-amarelo{
+    background-color: yellow;
+}
+
+.botao-branco{
+    background-color: #c1c1c1;
+}
+
+.botao-preto{
+    background-color: black;
+}
+
+.botao-vermelho{
+    background-color: red;
+}
+
+.botao-roxo{
+    background-color: #bd8ddd;
+}
+
+.escolha{
+    font-size: 20px;
+    color: #626262;
+    font-weight: 700px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.foto-iphone{
+    width: 500px;
+    margin-top: 100px;
+    z-index: 2;
+}
+.circulo{
+    width: 100%;
+    height: 100%;
+    background: #81a5c4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 1000px);
+}
